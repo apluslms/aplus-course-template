@@ -1,0 +1,4 @@
+[submodule "a-plus-rst-tools"]
+	path = a-plus-rst-tools
+	url = https://github.com/apluslms/a-plus-rst-tools.git
+	branch = master
