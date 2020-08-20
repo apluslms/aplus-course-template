@@ -34,6 +34,8 @@ in each module folder, and each of those files should be linked into your main *
 show how this main **index.rst**, in the code line number 2, is linked to each to each **index.rst** in each module
 and subsequently to each chapter.
 
+Yes! Great, there is a model structure, these always help A LOT.
+
 .. code-block:: shell
   :caption: Course chapter structure
   :name: course-structure
@@ -82,7 +84,7 @@ and subsequently to each chapter.
 
 .. code-block:: rst
   :caption: **index.rst** inside the rubyric module shown in the :ref:`above code example <course-structure>`. This
-    index file links all the chapters that are part of the module. Observe, how these links do not incluse the extension
+    index file links all the chapters that are part of the module. Observe, how these links do not include the extension
     of the file.
 
     Publish a Course
@@ -117,8 +119,10 @@ and subsequently to each chapter.
 Chapter structure
 -----------------
 Once you have linked each chapter to the course structure, it is time to add some content to the chapters. Again, A+
-have no restriction on how to layout the chapters, but we have some recommendation that will help you to have an
+have no restriction on how to layout the chapters, but below you can find some basic instructions on how to create an
 organised and appealing course.
+
+The above is maybe better?
 
 Introduction
 ............
@@ -174,6 +178,9 @@ Evaluation
 ..........
 A+ has offer different type of exercises that may support the evaluation of the students. Some of the most used tools in
 A+ are the following:
+
+The above sentence is a bit weird. Maybe something like "A+ has several tools for automatically evaluating students' exercise submissions"
+Or something like that. Basically my idea is that instead of evaluating students, the tools evaluate and grade exercise submissions. 
 
 - Automated Graders
 

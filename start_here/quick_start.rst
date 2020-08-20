@@ -1,6 +1,8 @@
 Quick start
 ===========
 
+I like these info-boxes, they are well written, concise and informative
+
 .. styled-topic::
 
   Main questions:
@@ -19,6 +21,10 @@ Quick start
   Estimated working time:
     30 min.
 
+
+Do we need this paragraph anymore? Isn't it kind of already said above in the "main questions" part and in the repo and the
+fact that this is a quick start -guide ? Just trying to reduce the amount what the teacher has to read to minimum :)
+
 Once you have a local copy of this template on your computer, you should be ready to start creating the content of your
 course and subsequently publish the course in A+. There is a basic series of steps that will lead you to publish your
 course in A+ and make available for everyone. In this quick start guide, we will teach you how to create content for your
@@ -26,8 +32,13 @@ course, hot to test the content in your computer, and how to make it publically 
 
 Create content
 --------------
+
+Here I would like a small sentence that the course is built with rst (and an appropriate link to rst-documentation) and then
+another short sentence, what are Aplus rst-tools. If I put myself in a newcomer's shoes, those two aren't really
+obvious. 
+
 The first thing to do before start authoring a course is to initialise the
-`Aplus rst tools <https://github.com/apluslms/a-plus-rst-tools>`_. The **Aplus RST TOlls** are not absolutely necessary
+`Aplus rst tools <https://github.com/apluslms/a-plus-rst-tools>`_. The **Aplus RST Tools** are not absolutely necessary
 for creating a course but are highly recommend. Start by typing the following commands.
 
 .. code-block:: bash
@@ -66,13 +77,17 @@ Feel free to explore the different features available in A+ in our `Aplus manual
 You can also explore some of the current and archive courses in the `A+ <https://plus.cs.fi/aplus-manual>`_ and see how
 these features have been implemented in different courses.
 
+I always learn the best by browsing through a live example. Do you think for instance that O1 would be a good reference here?
+Or could we get permissions to material of some other course? It is easy for other teachers to see, what can be done by looking
+at some good live examples. Just a tought.
+
 Compile and Build
 -----------------
 Once you have some content to the template, compile and run the course in your browser. For doing so, you must open the
 terminal in your course directory and type the following command.
 
 .. code-block:: bash
-  :caption: Compile the course loacally
+  :caption: Compile the course locally
 
   ./docker-compile.sh
 
@@ -86,12 +101,15 @@ or
 If the compilation is successful, you can run the course locally in your web browser by running the following command.
 
 .. code-block:: bash
-  :caption: Compile the course loacally
+  :caption: Compile the course locally
 
   ./docker-up.sh
 
 After you have a success message in the terminal, you can open your preferred web browser and open the following web
-address http://loacalhost:8000.
+address http://localhost:8000.
+
+Could these "important" and "warning" blocks be combined? So that only one of them would be used? I am not sure what is
+the semantic difference between the two.
 
 .. important::
 

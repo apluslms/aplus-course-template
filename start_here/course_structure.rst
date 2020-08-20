@@ -78,7 +78,7 @@ A+ e-learning system <https://plus.cs.aalto.fi/>`_.
   the `apluslms:run-acos-server`. You can use this file to add or remove some of
   `our dockerised services <https://hub.docker.com/u/apluslms/>`_.
 
-- **docker-compile.sh**, **docker-fast-compile.sh** and **dokcker-up.sh** are files used to compile and run the course
+- **docker-compile.sh**, **docker-fast-compile.sh** and **docker-up.sh** are files used to compile and run the course
   locally. You should not modify those files unless you are certain of what you are doing.
 
 - **.gitignore** and **.gitmodules** are files related to the git. `.gitignore <https://git-scm.com/docs/gitignore>`_ is
@@ -155,6 +155,9 @@ in weeks. The images bellow show both approaches in two different courses.
 
 Exercises
 ---------
+Do we need all different exercises here? Is this a bit duplicate information to the A+ manual? Maybe one or two
+working examples would be sufficient if this is suppose to be a very boilerplate / bare-minimum start guide?
+
 The **exercises** contains the course exercises, which are invoked through the `.. submit::`, `.. acos-submit::`
 and some other directives designed to submit exercises to the
 `mooc-grader <https://github.com/apluslms/mooc-grader>`_. As you can see in this course template each exercise is stored
@@ -225,6 +228,9 @@ Active elements
 
 Acos
 ....
+These Acos-exercises show the error-message "Connecting to the exercise service failed!" by default.
+Could that be configurated?
+
 .. acos-submit:: 2 10
   :title: jsparsons Python while loop
   :url: /aplus/jsparsons/jsparsons-python/ps_python_iteration_addition
