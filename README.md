@@ -1,3 +1,5 @@
+In general, I like this short, quick guide a lot!
+
 ## A course template for A-plus learning environment
 
 This course template contains the basic configuration to start authoring a new course for the [A+ e-learning system](https://plus.cs.aalto.fi/)
@@ -11,13 +13,15 @@ Unix / Linux / Mac environment. In order to run the course locally, you should i
 - [git](https://git-scm.com/)
 - [make](https://www.gnu.org/software/make/)
 - [docker](https://docs.docker.com/engine/installation/)
-- [docker-compose](https://docs.docker.com/compose/install/) - [Recommended Instalaltion](https://gist.github.com/jaguarfi/2e8dc73a68b6abe79989dc7fef92bf4a)
+- [docker-compose](https://docs.docker.com/compose/install/) - [Recommended Installation](https://gist.github.com/jaguarfi/2e8dc73a68b6abe79989dc7fef92bf4a)
 
 All other software runs inside [Docker](https://www.docker.com/) containers.
 
 ## Download
 
 1. Git clone this repository. E.g.:
+
+   Am I missing something or are these two the same?
 
    `git clone --recursive git@github.com:apluslms/aplus-course-template.git <name of your course>`
 
@@ -32,21 +36,39 @@ All other software runs inside [Docker](https://www.docker.com/) containers.
 
 ## Run
 
+Here I was thinking that could there be just the commands separately and then below them the explanation? I myself
+prefer if the commands I need to run are separated on their own lines, and if I need more information on what they do,
+I can find it nearby?
+
+So like:
+
+Run:
+
+<command number one>
+
+This does blaa blaa blaa
+
+OR
+
+<command number two>
+
+This does blaa blaa blaa
+
 1. Open the terminal, go to the course directory and type `./docker-compile.sh` for compiling the course. During the 
    compilation the **_build** directory is created. This directory will contain all the HTML, and YAML files that are 
    generated from the RST source files. The **_build** directory will also include all the static files such as images, 
    CSS, JS and downloadable files.
 
    Another option for compiling the course is to use the `./docker-fast-compile.sh` script. This script, as its name
-   suggests, compile the course slightly faster. The end result will be the same, but there is a slight difference
-   between these two commands.
+   suggests, compiles the course slightly faster. The end result will be the same, but there is a slight difference
+   between these two commands. The final sentence here is a bit unnecessary.
    
    The difference between the two compilation script is that  the `./docker-compile.sh` script clean the cached content, 
    while the `./docker-fast-compile.sh` makes use of this cached content and only compile the files have been changed. 
 
 
 2. Open the terminal, go to the course director and type `./docker-up.sh` to run the course in a web browser. If the 
-   `./docker-up.sh` command run successfully, you must be able to access your course in any web browser in the 
+   `./docker-up.sh` command run successfully, you should be able to access your course in any web browser in the
    following URL http://localhost:8000
 
 > ### ❗️ Important
@@ -81,7 +103,8 @@ the course project in <version.aalto.fi>.
 .
 ## Additional information
 
-**A+** has a wide variety of tools and configurations. Therefore, you must check all the different sources of information
+**A+** has a wide variety of tools and configurations. Therefore, you should/can/could (must is a
+pretty strong word) check all the different sources of information
 available on our webpages and repositories.
 
 - [A+ webpage](https://apluslms.github.io/)

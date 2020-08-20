@@ -1,6 +1,8 @@
 Publish a course in A+
 ======================
 
+I like this chapter a lot. It is clear and has easy steps to follow.
+
 .. styled-topic::
 
   Main questions:
@@ -51,9 +53,9 @@ easy to remember and catchy URL key. Some examples of course URL keys are: o1, t
 - **You only need to provide this key if you are creating a new course, new instances already have this key** -
 
 :raw-html:`<input type="checkbox">` **GitLab URL:**  You must send us the Gitlab URL of your course repository. If you
-are an Aalto user, the course content should be stored in https://version.aalto.fi, and preferable under the
+are an Aalto user, the course content should be stored in https://version.aalto.fi, (this does not work for me at least) and preferably under the
 `course group <https://version-aalto>`_. If for some reason you want to keep the course repository private, and
-you decide that to will store the repository outside the `course group <https://version-aalto>`_. You must add the
+you decide that to will store the repository (something weird with this sentence?) outside the `course group <https://version-aalto>`_. You must add the
 following A+ members to your repository with the "Reporter" role.
 
 - Teemu Lehtinen
@@ -73,4 +75,3 @@ If you are having trouble with the creation of the course or if you need help, f
 
 Contact us by email: aplusguru@cs.aalto.fi
 Contact us in Slack: https://apluslms.slack.com/:  #a-plus-help
-
