@@ -51,15 +51,13 @@ easy to remember and catchy URL key. Some examples of course URL keys are: o1, t
 - **You only need to provide this key if you are creating a new course, new instances already have this key** -
 
 :raw-html:`<input type="checkbox">` **GitLab URL:**  You must send us the Gitlab URL of your course repository. If you
-are an Aalto user, the course content should be stored in https://version.aalto.fi, and preferable under the
-`course group <https://version-aalto>`_. If for some reason you want to keep the course repository private, and
-you decide that to will store the repository outside the `course group <https://version-aalto>`_. You must add the
-following A+ members to your repository with the "Reporter" role.
+are an Aalto user, the course content should be stored in https://version.aalto.fi, and preferably under the
+`course group <https://version-aalto>`_. If for some reason you want to keep the course repository private, you must add
+the following A+ members to your repository with the "Reporter" role.
 
-- Teemu Lehtinen
-- Jaakko Kantojärvi
-- Markku Riekkinen
-- Jhosimar Aguacia
+- Teemu Lehtinen - **@lehtint6**
+- Markku Riekkinen - **@riekkim1**
+- Jhosimar Aguacia - **@aguacij1**
 
 :raw-html:`<input type="checkbox">` **Branch name:** The recommendation is to have one branch per instance of the course.
 Therefore, every time you want us to publish your course, you should let us know which branch you want to use. The names

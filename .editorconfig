@@ -1,24 +1,46 @@
 # EditorConfig is awesome: https://EditorConfig.org
+# NOTE: this file is shared among multiple projects. Please send updates
+# to the upstream too! https://github.com/apluslms/apluslms.github.io
 
-# top-most EditorConfig file
+# If you are using VS Code consider using the following extension
+# https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 root = true
 
-# Unix-style newlines with a newline ending every file
 [*]
+charset = utf-8
 end_of_line = lf
 insert_final_newline = true
+trim_trailing_whitespace = true
 
-# Set default charset
-[*.{rst,js,py}]
-charset = utf-8
+[Makefile*]
+indent_style = tab
+indent_size = 8
 
-# 2 space indentation
-[*.rst,*.md]
+[{*.json,*.yml,*.yaml}]
 indent_style = space
 indent_size = 2
 
-# Removes trailing whitespaces
-trim_trailing_whitespace = true
+[*.md]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = false
 
-# Supported only by some editor
-max_line_length = 130
+[*.html]
+indent_style = tab
+
+[{*.css,*.sass,*.scss}]
+indent_style = tab
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.py]
+indent_style = space
+indent_size = 4
+# Docstrings and comments use max_line_length = 79
+max_line_length = 119
+
+[*.sh]
+indent_style = space
+indent_size = 4

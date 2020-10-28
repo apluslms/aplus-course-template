@@ -2,6 +2,7 @@ Start Here
 ==========
 
 .. toctree::
+  :maxdepth: 1
 
   quick_start
   course_structure

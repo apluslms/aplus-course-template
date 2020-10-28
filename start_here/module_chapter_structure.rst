@@ -42,7 +42,7 @@ and subsequently to each chapter.
 
   ...
   ├── index.rst                           # Main index
-  ├── introduction
+  ├── introduction                        # Module folder
   │   ├── installation.rst
   │   ├── rst.rst
   │   ├── css.rst
@@ -53,16 +53,16 @@ and subsequently to each chapter.
   │   ├── gallery.rst
   │   ├── enrollment_en.rst
   │   └── index.rst                       # index of the Module
-  ├── lti
+  ├── lti                                 # Module folder
   │   ├── lti_matlab_grader.rst
   │   ├── configuration.rst
   │   ├── introduction.rst
   │   └── index.rst                       # index of the Module
-  ├── moodle_astra
+  ├── moodle_astra                        # Module folder
   │   ├── scripts
   │   ├── introduction.rst
   │   └── index.rst                       # index of the Module
-  ├── programming_exercises
+  ├── programming_exercises               # Module folder
   │   ├── instructions.rst
   │   ├── hello_world.rst
   │   ├── personalized_exercises.rst
@@ -72,7 +72,7 @@ and subsequently to each chapter.
   │   ├── web_frontend.rst
   │   ├── ajax_exercise.rst
   │   └── index.rst                       # index of the Module
-  ├─── rubyric
+  ├─── rubyric                            # Module folder
   |   ├── introduction.rst
   |   ├── getting_started.rst
   |   ├── rubrics_and_reviews.rst
@@ -81,43 +81,43 @@ and subsequently to each chapter.
   ...
 
 .. code-block:: rst
-  :caption: **index.rst** inside the rubyric module shown in the :ref:`above code example <course-structure>`. This
-    index file links all the chapters that are part of the module. Observe, how these links do not incluse the extension
-    of the file.
+  :caption: **index.rst** file of the rubyric module shown in the :ref:`above course structure (line 38)
+    <course-structure>`. This index file links all the chapters that are part of the rubyric module. Observe, how these
+    links do not include the extension of the file.
 
-    Publish a Course
-    ================
+  Publish a Course
+  ================
 
-    .. toctree::
+  .. toctree::
 
-      introduction.rst
-      getting_started.rst
-      rubrics_and_reviews.rst
-      roles_and_groups.rst
+    introduction.rst
+    getting_started.rst
+    rubrics_and_reviews.rst
+    roles_and_groups.rst
 
 .. code-block:: rst
-    :caption: Main **index.rst** file. It links all the index files that are part of the course. In this case we only
-      have one module.
+  :caption: Main **index.rst** file located at the root of the course folder in the :ref:`above course structure (line
+    2) <course-structure>`. It links all the index files that are part of the course. In this case we only have one module.
 
-     A sample course
-     ===============
+  A sample course
+  ===============
 
-     This index lists an entry for each learning module on course.
-     Other content is not visible in A+.
+  This index lists an entry for each learning module on course.
+  Other content is not visible in A+.
 
-     .. toctree::
-       :maxdepth: 2
+  .. toctree::
+    :maxdepth: 2
 
-      introduction/index
-      lti/index
-      moodle_astra/index
-      programming_exercises/index
-      rubyric/index
+  introduction/index
+  lti/index
+  moodle_astra/index
+  programming_exercises/index
+  rubyric/index
 
 Chapter structure
 -----------------
 Once you have linked each chapter to the course structure, it is time to add some content to the chapters. Again, A+
-have no restriction on how to layout the chapters, but we have some recommendation that will help you to have an
+have no restriction on how to layout the chapters, but below you can find some basic instructions on how to create an
 organised and appealing course.
 
 Introduction
@@ -172,8 +172,8 @@ videos, youtube videos, images, annotated code, Learning Tools Interoperability 
 
 Evaluation
 ..........
-A+ has offer different type of exercises that may support the evaluation of the students. Some of the most used tools in
-A+ are the following:
+A+ has several tools for automatically evaluating the students assigments. Some of the most used tools in A+ are the
+following:
 
 - Automated Graders
 
@@ -203,12 +203,19 @@ A+ are the following:
 
 ::::
 
-We recomend to follow the basic structure of writting, start with a **brief introduction**, then go
-**deeper into the subject** itself and finally **evaluate** the knowledge of your students. This structure is simple
-enough to follow and quite efficient for teaching.
+We recomend to follow the basic structure in writting, start with a **brief introduction**, then **present the subject**
+and finally **assess** the knowledge of your students. This structure is simple enough to follow and quite efficient for
+teaching. A+ also offer the possibility to provide support to the students through our Queueing system for lab sessions
+`Neuvontajono <https://github.com/apluslms/neuvontajono>`_, and our Pastebin service `Koodisäilö
+<https://github.com/apluslms/koodisailo>`_ designed to allow the students to save their code for a short period of time
+and share the links with staff members to get help.
 
 .. rst-class:: pull-right
 
 | :glyphicon-info-sign:`\ ` **Read more about**  `A+ features <https://plus.cs.aalto.fi/aplus-manual/master/>`_
 
 |
+
+In this chapter, you learnt how to structure you chapter in a quick and simple manner. Nevertheless, you are free to
+organise the chapter based on your needs. Now, the next step is to publish the course in our official `A+ website
+<https://plus.cs.aalto.fi/>`_.

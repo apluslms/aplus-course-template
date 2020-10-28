@@ -49,7 +49,7 @@ rst_prolog +=  '''
 .. role:: raw-html(raw)
    :format: html
 .. role:: glyphicon-info-sign
-  :class: glyphicon glyphicon-info-sign   
+  :class: glyphicon glyphicon-info-sign
 .. role:: glyphicon-console
   :class: glyphicon glyphicon-console
 .. role:: glyphicon-cog
@@ -79,7 +79,7 @@ extensions = [
     'aplus_setup',
     'media',
     'point_of_interest',
-    'annotated' 
+    'annotated'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
