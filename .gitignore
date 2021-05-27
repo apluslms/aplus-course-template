@@ -1,0 +1,23 @@
+__pycache__/
+
+_build/
+_data/
+
+.idea
+.settings
+.project
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+*~
+*.sw[op]
+
+# editor
+.vscode
+
+# virtual environment
+.venv_aplus
+
+# rstlinter
+.rstcheck.cfg
