@@ -9,7 +9,6 @@ This course templated has been tested in Ubuntu Linux environment. Nevertheless,
 Unix / Linux / Mac environment. In order to run the course locally, you should install the following software.
 
 -   [git](https://git-scm.com/)
--   [make](https://www.gnu.org/software/make/)
 -   [docker](https://docs.docker.com/engine/installation/)
 -   [docker-compose](https://docs.docker.com/compose/install/)
 
@@ -49,17 +48,6 @@ git submodule init && git submodule update
     This command will compile the course, and store the compiled files inside the **\_build** directory. The **\_build**
     directory will contain all the HTML and YAML files that are generated from the RST source files. The **\_build**
     directory will also include all the static files such as images, CSS, JS and downloadable files.
-
-    **OR**
-
-    ```sh
-    ./docker-fast-compile.sh
-    ```
-
-    This script, as its name suggests, compiles the course slightly faster and also stores the compiled files inside the
-    **\_build** directory. However, this command does not find changes in exercise YAML files unless you have also modified
-    the RST files that link to the exercises. When you modify exercises, use `docker-compile.sh` in order to
-    ensure that your changes are included in the build.
 
 2. Open the terminal, go to the course director and type the next command.
 
@@ -111,4 +99,4 @@ The information and instructions are scattered in many locations.
 -   [MOOC-Grader YAML configurations](https://github.com/apluslms/mooc-grader/blob/master/courses/README.md)
 
 Teacher support channels are listed in the EDIT wiki:
-https://wiki.aalto.fi/display/EDIT/Instructions+and+support+for+teachers+and+TAs+at+CS+department
+https://wiki.aalto.fi/display/EDIT/Instructions+and+support+for+teachers+on+CS+department+own+tools+provided+for+teaching
