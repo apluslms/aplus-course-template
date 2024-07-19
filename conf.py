@@ -15,8 +15,8 @@ import os
 
 
 # -- Aplus configuration --------------------------------------------------
-course_open_date = '2022-01-10'
-course_close_date = '2022-05-31'
+course_open_date = '2024-09-02'
+course_close_date = '2024-11-28'
 questionnaire_default_submissions = 5
 program_default_submissions = 10
 default_max_group_size = 1
@@ -113,4 +113,3 @@ html_theme_path = ['a-plus-rst-tools/theme']
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
