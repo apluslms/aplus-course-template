@@ -32,6 +32,13 @@ if on_container:
 else:
     acos_submit_base_url = 'https://acos.cs.aalto.fi'
 
+# List of JavaScript and CSS URLs for the A+ head URLs course setting.
+# A+ adds these to every course page. These can also be paths to static files,
+# e.g. _static/course.js (only on gitmanager)
+course_head_urls = [
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML-full",
+]
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
